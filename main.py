@@ -7,8 +7,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 
 # إعدادات البوت
 TOKEN = "6076885658:AAEkURH7BVJh62Gcbj04YecwkqY-hhSzLck"
-MAX_ATTACK_DURATION = 1000  # أقصى مدة للهجوم (ثواني)
-MAX_CONCURRENT_ATTACKS = 5  # أقصى عدد هجمات متزامنة
+MAX_ATTACK_DURATION = 10000  # أقصى مدة للهجوم (ثواني)
+MAX_CONCURRENT_ATTACKS = 15  # أقصى عدد هجمات متزامنة
 
 active_attacks = 0
 attack_lock = threading.Lock()
